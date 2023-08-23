@@ -1,0 +1,24 @@
+/*
+ Theme Name:   GeneratePress Child
+ Theme URI:    https://generatepress.com
+ Description:  Default GeneratePress child theme
+ Author:       Tom Usborne
+ Author URI:   https://tomusborne.com
+ Template:     generatepress
+ Version:      0.1
+*/
+
+/*WC CARDS HEIGHT*/
+.woocommerce ul.products li.product,
+.woocommerce-page ul.products li.product {
+  height: 325px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/*WC CARD IMAGES HEIGHT*/
+.woocommerce ul.products li.product a img {
+  height: 150px;
+  object-fit: cover;
+}
